@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LDII Trade Fair 2026 - Himpunan Pengusaha LDII Jawa Timur</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800 overflow-x-hidden">
+
+    <header class="fixed top-0 left-0 w-full bg-white/90 backdrop-blur-md shadow-sm z-50 transition-all duration-300">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-20">
+                <div class="flex items-center space-x-3">
+                    <div class="h-10 w-10 bg-emerald-600 rounded-lg flex items-center justify-center text-white font-bold text-lg shadow-md shadow-emerald-200">
+                        HPL
+                    </div>
+                    <span class="font-extrabold text-lg tracking-wider text-slate-900">LDII TRADE FAIR <span class="text-emerald-600">2026</span></span>
+                </div>
+
+                <nav class="hidden lg:flex items-center space-x-6">
+                    <a href="#home" class="text-sm font-semibold text-slate-600 hover:text-emerald-600 transition-colors">Beranda</a>
+                    <a href="#tentang" class="text-sm font-semibold text-slate-600 hover:text-emerald-600 transition-colors">Tentang Event</a>
+                    <a href="#denah" class="text-sm font-semibold text-slate-600 hover:text-emerald-600 transition-colors">Denah Stand</a>
+                    <a href="#benefit" class="text-sm font-semibold text-slate-600 hover:text-emerald-600 transition-colors">Benefit</a>
+                    <a href="#rundown" class="text-sm font-semibold text-slate-600 hover:text-emerald-600 transition-colors">Rundown</a>
+                    <a href="#galeri" class="text-sm font-semibold text-slate-600 hover:text-emerald-600 transition-colors">Galeri</a>
+                    <a href="#faq" class="text-sm font-semibold text-slate-600 hover:text-emerald-600 transition-colors">FAQ</a>
+                    <a href="#kontak" class="text-sm font-semibold text-slate-600 hover:text-emerald-600 transition-colors">Kontak</a>
+                </nav>
+
+                <div class="hidden lg:block">
+                    <a href="#daftar" class="bg-emerald-600 hover:bg-emerald-700 text-white px-5 py-2.5 rounded-full text-sm font-bold shadow-lg shadow-emerald-100 hover:shadow-emerald-200 transition-all transform hover:-translate-y-0.5">
+                        Daftar Sekarang
+                    </a>
+                </div>
+
+                <div class="lg:hidden">
+                    <button id="menu-btn" class="text-slate-700 hover:text-emerald-600 focus:outline-none">
+                        <i class="fa-solid fa-bars text-2xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div id="mobile-menu" class="hidden lg:hidden bg-white border-t border-slate-100 px-4 pt-2 pb-6 space-y-3">
+            <a href="#home" class="block text-base font-semibold text-slate-600 py-2">Beranda</a>
+            <a href="#tentang" class="block text-base font-semibold text-slate-600 py-2">Tentang Event</a>
+            <a href="#denah" class="block text-base font-semibold text-slate-600 py-2">Denah Stand</a>
+            <a href="#benefit" class="block text-base font-semibold text-slate-600 py-2">Benefit</a>
+            <a href="#rundown" class="block text-base font-semibold text-slate-600 py-2">Rundown</a>
+            <a href="#galeri" class="block text-base font-semibold text-slate-600 py-2">Galeri</a>
+            <a href="#faq" class="block text-base font-semibold text-slate-600 py-2">FAQ</a>
+            <a href="#kontak" class="block text-base font-semibold text-slate-600 py-2">Kontak</a>
+            <a href="#daftar" class="block w-full text-center bg-emerald-600 text-white font-bold py-3 rounded-xl">Daftar Sekarang</a>
+        </div>
+    </header>
+
+    <!-- SECTION HOME: Menggunakan tag IMG agar banner terlihat utuh tanpa terpotong -->
+    <section id="home" class="relative pt-20 bg-slate-900 w-full overflow-hidden">
+        <div class="relative w-full">
+            <!-- Gambar Banner Utuh -->
+            <img src="header_banner.png" alt="LDII Trade Fair 2026 Banner" class="w-full h-auto block select-none">
+            
+            <!-- Overlay Transparan Tipis di Bagian Bawah untuk Tombol -->
+            <div class="absolute bottom-0 left-0 w-full h-1/3 bg-gradient-to-t from-slate-950/80 via-slate-950/40 to-transparent flex items-end justify-center pb-4 sm:pb-8 md:pb-12 lg:pb-16 px-4">
+                
+                <!-- Tombol Aksi Melayang Sesuai Tema Banner -->
+                <div class="flex flex-row justify-center items-center gap-3 sm:gap-4 w-full max-w-2xl">
+                    <a href="#daftar" class="flex-1 sm:flex-initial text-center px-4 sm:px-8 py-2.5 sm:py-4 bg-[#bfa15f] hover:bg-[#a68a4c] text-slate-950 font-extrabold rounded-lg sm:rounded-xl shadow-lg shadow-black/50 text-xs sm:text-base transition-all duration-300 transform hover:-translate-y-1">
+                        <i class="fa-solid fa-ticket-alt mr-1 sm:mr-2"></i> Daftar Sekarang!
+                    </a>
+                    <a href="https://wa.me/6281336698289?text=Halo%20Panitia%20LDII%20Trade%20Fair%202026,%20saya%20ingin%20meminta%20Proposal%20Acara%20..." target="_blank" class="flex-1 sm:flex-initial text-center px-4 sm:px-8 py-2.5 sm:py-4 bg-white/10 hover:bg-white/20 text-white font-bold rounded-lg sm:rounded-xl border border-white/20 text-xs sm:text-base transition-all duration-300 backdrop-blur-md">
+                        <i class="fa-solid fa-file-pdf mr-1 sm:mr-2"></i> Download Proposal
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="tentang" class="py-24 bg-slate-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <div>
+                    <span class="text-emerald-600 font-bold tracking-wider uppercase">Tentang Event</span>
+                    <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 mt-2">Menghubungkan Potensi, Mempercepat Pertumbuhan Bisnis</h2>
+                    <p class="text-slate-600 mt-6 leading-relaxed">
+                        LDII Trade Fair 2026 yang diinisiasi oleh <strong>Himpunan Pengusaha LDII (HPL) Jawa Timur</strong> merupakan panggung kolaborasi bisnis terbesar tahun ini. Kami mempertemukan para pelaku usaha regional, nasional, investor, dan masyarakat umum dalam satu ekosistem yang terintegrasi.
+                    </p>
+                    <p class="text-slate-600 mt-4 leading-relaxed">
+                        Nikmati berbagai rangkaian acara berharga mulai dari pameran produk inovatif, area kuliner Nusantara, sesi <em>Business Matching</em> eksklusif, hingga seminar bersama para pakar industri.
+                    </p>
+                </div>
+                <div class="relative bg-slate-900 rounded-3xl overflow-hidden shadow-2xl aspect-video border border-slate-200">
+                    <video controls poster="https://images.unsplash.com/photo-1511578314322-379afb476865?q=80&w=2069" class="w-full h-full object-cover">
+                        <source src="video2.mp4" type="video/mp4">
+                        Browser Anda tidak mendukung pemutaran video html5.
+                    </video>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="denah" class="py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <span class="text-emerald-600 font-bold tracking-wider uppercase">Layout Pameran</span>
+                <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 mt-2">Denah Lokasi Stand</h2>
+                <p class="text-slate-600 mt-4 max-w-2xl mx-auto">
+                    Pilih lokasi strategis terbaik untuk memamerkan bisnis Anda. Tersedia 55 Stand Bisnis premium dan 10 Stand Kuliner eksklusif. Klik gambar untuk memperbesar denah.
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 items-start max-w-6xl mx-auto">
+                <div class="lg:col-span-2 bg-slate-50 border border-slate-200 rounded-3xl p-4 shadow-sm hover:shadow-md transition">
+                    <div onclick="openModal()" class="relative rounded-2xl overflow-hidden bg-white group cursor-zoom-in border border-slate-100 flex items-center justify-center p-4">
+                        <img 
+                            id="layoutImage"
+                            src="layoutpameran.jpg" 
+                            class="w-full h-auto max-h-[450px] object-contain transition-transform duration-300 group-hover:scale-[1.01]" 
+                            alt="Denah Stan Pameran LDII Trade Fair 2026"
+                        >
+                        <div class="absolute inset-0 bg-slate-900/5 group-hover:bg-slate-900/0 transition-colors duration-300"></div>
+                        <span class="absolute top-4 left-4 bg-emerald-600 text-white text-xs font-bold px-3 py-1.5 rounded-full shadow-md">
+                            <i class="fa-solid fa-expand-arrows-alt mr-1"></i> Klik untuk Memperbesar
+                        </span>
+                    </div>
+                    
+                    <div class="mt-4 p-4 bg-emerald-50 rounded-2xl border border-emerald-100 flex flex-col sm:flex-row items-center justify-between gap-4">
+                        <div class="flex items-center gap-3 text-center sm:text-left">
+                            <div class="h-10 w-10 bg-emerald-600 rounded-full flex items-center justify-center text-white text-lg shadow-md shadow-emerald-200 flex-shrink-0 mx-auto sm:mx-0">
+                                <i class="fa-solid fa-store"></i>
+                            </div>
+                            <div>
+                                <h4 class="text-sm font-bold text-slate-900">Ingin Booking Nomor Stan Tertentu?</h4>
+                                <p class="text-xs text-slate-600">Konsultasikan kavling stand yang masih tersedia via WhatsApp.</p>
+                            </div>
+                        </div>
+                        <a href="https://wa.me/6281336698289?text=Halo%20Panitia%20LDII%20Trade%20Fair%202026,%20saya%20ingin%20tanya%20ketersediaan%20nomor%20stan%20..." 
+                           target="_blank" 
+                           class="w-full sm:w-auto text-center bg-emerald-600 hover:bg-emerald-700 text-white text-sm font-bold px-5 py-3 rounded-xl transition duration-300 shadow-md shadow-emerald-100 flex items-center justify-center gap-2">
+                            <i class="fa-brands fa-whatsapp text-lg"></i> Hubungi via WhatsApp
+                        </a>
+                    </div>
+
+                    <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center mt-3 px-2 gap-2">
+                        <span class="text-xs text-slate-500 font-medium">*Ilustrasi denah pameran utama Graha LDII.</span>
+                        <button onclick="openModal()" class="text-sm font-semibold text-emerald-600 hover:text-emerald-700 flex items-center gap-1.5 transition">
+                            <i class="fa-solid fa-magnifying-glass-plus"></i> Lihat Ukuran Penuh
+                        </button>
+                    </div>
+                </div>
+
+                <div class="bg-slate-50 border border-slate-200 rounded-3xl p-6 sm:p-8 space-y-6">
+                    <h3 class="text-xl font-bold text-slate-900">Pembagian Area Stand</h3>
+                    <p class="text-sm text-slate-600 leading-relaxed">
+                        Kami merancang alur pengunjung satu arah (<em>one-way flow</em>) guna memastikan setiap stan mendapatkan eksposur dan jumlah kunjungan pengunjung yang merata.
+                    </p>
+
+                    <div class="space-y-4 pt-2 border-t border-slate-200">
+                        <div class="flex items-center space-x-3">
+                            <span class="h-4 w-4 bg-emerald-500 rounded-full flex-shrink-0"></span>
+                            <div>
+                                <h4 class="text-sm font-bold text-slate-900">Stan Bisnis & Pameran (1 - 55)</h4>
+                                <p class="text-xs text-slate-500">Ukuran 3x3m, cocok untuk produk manufaktur, jasa, fashion, & agrobisnis.</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-center space-x-3">
+                            <span class="h-4 w-4 bg-amber-500 rounded-full flex-shrink-0"></span>
+                            <div>
+                                <h4 class="text-sm font-bold text-slate-900">Stan Kuliner (F&B 1 - 10)</h4>
+                                <p class="text-xs text-slate-500">Dilengkapi dengan instalasi listrik dan air bersih, khusus kuliner basah & kering.</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-center space-x-3">
+                            <span class="h-4 w-4 bg-indigo-500 rounded-full flex-shrink-0"></span>
+                            <div>
+                                <h4 class="text-sm font-bold text-slate-900">Panggung Utama / Main Stage</h4>
+                                <p class="text-xs text-slate-500">Pusat acara pembukaan, talkshow, seminar, dan hiburan pameran.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="pt-4">
+                        <a href="#daftar" class="block w-full text-center bg-emerald-600 hover:bg-emerald-700 text-white font-bold py-3.5 rounded-xl text-sm transition shadow-lg shadow-emerald-100">
+                            Pesan Kavling Stand Sekarang
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="imageModal" class="fixed inset-0 bg-slate-950/95 z-[100] hidden items-center justify-center p-2 sm:p-4 backdrop-blur-md">
+        <button onclick="closeModal()" class="absolute top-4 right-4 sm:top-6 sm:right-6 text-white hover:text-emerald-400 text-4xl focus:outline-none transition z-50 bg-slate-900/50 hover:bg-slate-900 h-12 w-12 rounded-full flex items-center justify-center shadow-lg">
+            <i class="fa-solid fa-xmark"></i>
+        </button>
+        
+        <div class="max-w-[95vw] w-full flex items-center justify-center overflow-auto">
+            <img 
+                id="modalImage"
+                src="layoutpameran.jpg" 
+                class="w-auto h-auto max-w-full max-h-[92vh] rounded-lg shadow-2xl object-contain" 
+                alt="Denah Ukuran Penuh"
+            >
+        </div>
+    </div>
+
+    <section id="benefit" class="py-24 bg-slate-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <span class="text-emerald-600 font-bold tracking-wider uppercase">Mengapa Harus Bergabung?</span>
+            <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 mt-2">Benefit Eksklusif Peserta & Sponsor</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
+                <div class="bg-white p-8 rounded-2xl shadow-sm border border-slate-100 hover:shadow-md transition">
+                    <div class="h-12 w-12 bg-emerald-50 rounded-xl flex items-center justify-center text-emerald-600 text-xl font-bold mb-6">
+                        <i class="fa-solid fa-users-viewfinder"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-3 text-left">Eksposur Brand</h3>
+                    <p class="text-slate-600 text-sm text-left leading-relaxed">
+                        Tampilkan produk Anda secara langsung di hadapan ribuan pengunjung potensial, pelaku usaha, serta jajaran pengusaha HPL Jawa Timur.
+                    </p>
+                </div>
+
+                <div class="bg-white p-8 rounded-2xl shadow-sm border border-slate-100 hover:shadow-md transition">
+                    <div class="h-12 w-12 bg-emerald-50 rounded-xl flex items-center justify-center text-emerald-600 text-xl font-bold mb-6">
+                        <i class="fa-solid fa-handshake-simple"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-3 text-left">Business Matching</h3>
+                    <p class="text-slate-600 text-sm text-left leading-relaxed">
+                        Akses khusus sesi pertemuan bisnis terstruktur (B2B) guna membangun kemitraan strategis dengan investor dan pemasok skala besar.
+                    </p>
+                </div>
+
+                <div class="bg-white p-8 rounded-2xl shadow-sm border border-slate-100 hover:shadow-md transition">
+                    <div class="h-12 w-12 bg-emerald-50 rounded-xl flex items-center justify-center text-emerald-600 text-xl font-bold mb-6">
+                        <i class="fa-solid fa-lightbulb"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-3 text-left">Edukasi & Insight</h3>
+                    <p class="text-slate-600 text-sm text-left leading-relaxed">
+                        Dapatkan wawasan terkini mengenai tren bisnis 2026 langsung dari para pembicara seminar handal tingkat regional maupun nasional.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="rundown" class="py-24 bg-white">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <span class="text-emerald-600 font-bold tracking-wider uppercase">Jadwal Kegiatan</span>
+                <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 mt-2">Rundown Acara Utama</h2>
+            </div>
+
+            <div class="relative border-l-2 border-emerald-200 ml-4 md:ml-32 space-y-12">
+                <div class="relative pl-8">
+                    <span class="absolute -left-3.5 bg-emerald-600 h-6 w-6 rounded-full border-4 border-white flex items-center justify-center"></span>
+                    <div class="flex flex-col md:flex-row md:items-center justify-between gap-2">
+                        <span class="text-sm font-extrabold text-emerald-600 bg-emerald-50 px-3 py-1 rounded-full w-max">08:00 - 09:30 WIB</span>
+                        <span class="text-slate-500 text-sm font-semibold">Hari Pertama</span>
+                    </div>
+                    <h4 class="text-lg font-bold text-slate-900 mt-2">Opening Ceremony & Sambutan</h4>
+                    <p class="text-slate-600 text-sm mt-1">Pembukaan resmi oleh Ketua HPL Jatim serta perwakilan pemerintah provinsi.</p>
+                </div>
+                <div class="relative pl-8">
+                    <span class="absolute -left-3.5 bg-emerald-600 h-6 w-6 rounded-full border-4 border-white flex items-center justify-center"></span>
+                    <div class="flex flex-col md:flex-row md:items-center justify-between gap-2">
+                        <span class="text-sm font-extrabold text-emerald-600 bg-emerald-50 px-3 py-1 rounded-full w-max">10:00 - 12:00 WIB</span>
+                        <span class="text-slate-500 text-sm font-semibold">Hari Pertama</span>
+                    </div>
+                    <h4 class="text-lg font-bold text-slate-900 mt-2">Seminar Utama: Bisnis Digital 2026</h4>
+                    <p class="text-slate-600 text-sm mt-1">Strategi scale up usaha mikro-menengah menghadapi disrupsi pasar masa depan.</p>
+                </div>
+                <div class="relative pl-8">
+                    <span class="absolute -left-3.5 bg-emerald-600 h-6 w-6 rounded-full border-4 border-white flex items-center justify-center"></span>
+                    <div class="flex flex-col md:flex-row md:items-center justify-between gap-2">
+                        <span class="text-sm font-extrabold text-emerald-600 bg-emerald-50 px-3 py-1 rounded-full w-max">13:30 - 16:00 WIB</span>
+                        <span class="text-slate-500 text-sm font-semibold">Hari Kedua</span>
+                    </div>
+                    <h4 class="text-lg font-bold text-slate-900 mt-2">Business Matching Session</h4>
+                    <p class="text-slate-600 text-sm mt-1">Pertemuan bisnis privat 1-on-1 bersama calon investor dan para distributor resmi.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="galeri" class="py-24 bg-slate-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <span class="text-emerald-600 font-bold tracking-wider uppercase">Galeri Dokumentasi</span>
+                <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 mt-2">Keseruan Edisi Sebelumnya</h2>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="group relative overflow-hidden rounded-2xl shadow-sm aspect-video">
+                    <img src="pamer1.jpg" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" alt="Expo Activity">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex items-end p-6 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                        <p class="text-white font-semibold">Exhibition Area & Pameran Booth</p>
+                    </div>
+                </div>
+                <div class="group relative overflow-hidden rounded-2xl shadow-sm aspect-video">
+                    <img src="pamer5.jpg" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" alt="Seminar">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex items-end p-6 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                        <p class="text-white font-semibold">Seminar Utama & Workshop Inspiratif</p>
+                    </div>
+                </div>
+                <div class="group relative overflow-hidden rounded-2xl shadow-sm aspect-video">
+                    <img src="pamer6.jpg" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" alt="Networking">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex items-end p-6 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                        <p class="text-white font-semibold">Sesi Networking Antar Pengusaha</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="faq" class="py-24 bg-white">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <span class="text-emerald-600 font-bold tracking-wider uppercase">Butuh Bantuan?</span>
+                <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 mt-2">Pertanyaan Populer (FAQ)</h2>
+            </div>
+
+            <div class="space-y-4">
+                <details class="group bg-slate-50 p-6 rounded-2xl border border-slate-100 [&_summary::-webkit-details-marker]:hidden" open>
+                    <summary class="flex items-center justify-between cursor-pointer focus:outline-none">
+                        <h3 class="text-lg font-bold text-slate-900">Bagaimana cara mendaftar sebagai peserta pameran?</h3>
+                        <span class="ml-1.5 flex-shrink-0 rounded-full bg-white p-1.5 text-slate-900 group-open:rotate-180 transition-transform">
+                            <i class="fa-solid fa-chevron-down text-sm"></i>
+                        </span>
+                    </summary>
+                    <p class="mt-4 text-slate-600 text-sm leading-relaxed">
+                        Anda dapat langsung mengisi form di bagian bawah halaman ini pada section "Daftar Sekarang" atau menekan tombol "Daftar" di menu navigasi atas. Tim panitia kami akan segera menghubungi Anda kembali melalui WhatsApp.
+                    </p>
+                </details>
+
+                <details class="group bg-slate-50 p-6 rounded-2xl border border-slate-100 [&_summary::-webkit-details-marker]:hidden">
+                    <summary class="flex items-center justify-between cursor-pointer focus:outline-none">
+                        <h3 class="text-lg font-bold text-slate-900">Apakah acara ini terbuka untuk umum?</h3>
+                        <span class="ml-1.5 flex-shrink-0 rounded-full bg-white p-1.5 text-slate-900 group-open:rotate-180 transition-transform">
+                            <i class="fa-solid fa-chevron-down text-sm"></i>
+                        </span>
+                    </summary>
+                    <p class="mt-4 text-slate-600 text-sm leading-relaxed">
+                        Ya, pameran (Expo Area) dan area stand kuliner terbuka secara gratis untuk umum. Namun, untuk berpartisipasi dalam sesi Seminar Khusus dan Business Matching, peserta diwajibkan melakukan registrasi atau melampirkan tiket khusus.
+                    </p>
+                </details>
+            </div>
+        </div>
+    </section>
+
+    <section id="daftar" class="py-24 bg-slate-900 text-white relative">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div id="kontak" class="grid grid-cols-1 lg:grid-cols-2 gap-16">
+                <div>
+                    <span class="text-emerald-400 font-bold tracking-wider uppercase">Hubungi Kami</span>
+                    <h2 class="text-3xl sm:text-4xl font-extrabold mt-2">Siap Sukses Bersama?</h2>
+                    <p class="text-slate-400 mt-4 max-w-md">
+                        Punya pertanyaan seputar sponsorship, pemesanan booth khusus, atau agenda kerja sama lainnya? Jangan ragu menghubungi kami.
+                    </p>
+
+                    <div class="mt-8 space-y-6">
+                        <div class="flex items-center space-x-4">
+                            <div class="h-12 w-12 bg-white/5 rounded-xl flex items-center justify-center text-emerald-400 border border-white/10">
+                                <i class="fa-solid fa-phone"></i>
+                            </div>
+                            <div>
+                                <p class="text-slate-400 text-xs">Telepon / WhatsApp</p>
+                                <p class="font-bold text-white text-base">6281336698289</p>
+                            </div>
+                        </div>
+                        <div class="flex items-center space-x-4">
+                            <div class="h-12 w-12 bg-white/5 rounded-xl flex items-center justify-center text-emerald-400 border border-white/10">
+                                <i class="fa-solid fa-envelope"></i>
+                            </div>
+                            <div>
+                                <p class="text-slate-400 text-xs">Email Korespondensi</p>
+                                <p class="font-bold text-white text-base">info@hpljatim.or.id</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white text-slate-900 p-8 sm:p-10 rounded-3xl shadow-2xl">
+                    <h3 class="text-2xl font-bold text-slate-900 mb-6">Formulir Pendaftaran</h3>
+                    
+                    <form id="registrationForm" class="space-y-4">
+                        <div>
+                            <label class="block text-xs font-bold text-slate-500 uppercase tracking-wide">Nama Lengkap</label>
+                            <input type="text" name="entry.172935275" placeholder="Masukkan nama Anda" required class="w-full mt-1.5 px-4 py-3 bg-slate-50 border border-slate-200 rounded-xl text-slate-900 focus:outline-none focus:border-emerald-500 focus:ring-1 focus:ring-emerald-500 text-sm">
+                        </div>
+                        
+                        <div>
+                            <label class="block text-xs font-bold text-slate-500 uppercase tracking-wide">Nama Bisnis / Perusahaan</label>
+                            <input type="text" name="entry.402324911" placeholder="Nama brand / perusahaan" required class="w-full mt-1.5 px-4 py-3 bg-slate-50 border border-slate-200 rounded-xl text-slate-900 focus:outline-none focus:border-emerald-500 focus:ring-1 focus:ring-emerald-500 text-sm">
+                        </div>
+                        
+                        <div>
+                            <label class="block text-xs font-bold text-slate-500 uppercase tracking-wide">Nomor WhatsApp</label>
+                            <input type="tel" name="entry.1487214736" placeholder="Contoh: 081234567890" required class="w-full mt-1.5 px-4 py-3 bg-slate-50 border border-slate-200 rounded-xl text-slate-900 focus:outline-none focus:border-emerald-500 focus:ring-1 focus:ring-emerald-500 text-sm">
+                        </div>
+                        
+                        <div>
+                            <label class="block text-xs font-bold text-slate-500 uppercase tracking-wide">Kategori Partisipasi</label>
+                            <select name="entry.279822766" required class="w-full mt-1.5 px-4 py-3 bg-slate-50 border border-slate-200 rounded-xl text-slate-900 focus:outline-none focus:border-emerald-500 text-sm">
+                                <option value="">Pilih Salah Satu</option>
+                                <option value="Sewa Stand Pameran (Bisnis)">Sewa Stand Pameran (Bisnis)</option>
+                                <option value="Sewa Stand Kuliner">Sewa Stand Kuliner</option>
+                                <option value="Sponsor Acara">Sponsor Acara</option>
+                                <option value="Peserta Seminar & Matching">Peserta Seminar & Matching</option>
+                            </select>
+                        </div>
+                        
+                        <button type="submit" id="submitBtn" class="w-full mt-4 py-4 bg-emerald-600 hover:bg-emerald-700 text-white font-bold rounded-xl shadow-lg transition-all flex items-center justify-center gap-2">
+                            <span>Kirim Pendaftaran</span>
+                        </button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="border-t border-white/10 mt-24 pt-8 text-center text-sm text-slate-500">
+                <p>&copy; 2026 HPL Jawa Timur. Hak Cipta Dilindungi.</p>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        // Kontrol Mobile Menu Navigation
+        const btn = document.getElementById('menu-btn');
+        const menu = document.getElementById('mobile-menu');
+        btn.addEventListener('click', () => {
+            menu.classList.toggle('hidden');
+        });
+
+        // Kontrol Modal Pop-up Denah Full Screen
+        const modal = document.getElementById('imageModal');
+        function openModal() {
+            modal.classList.remove('hidden');
+            modal.classList.add('flex');
+            document.body.style.overflow = 'hidden';
+        }
+        function closeModal() {
+            modal.classList.remove('flex');
+            modal.classList.add('hidden');
+            document.body.style.overflow = '';
+        }
+        modal.addEventListener('click', (e) => {
+            if (e.target === modal) closeModal();
+        });
+
+        // ===================================================
+        // SISTEM KIRIM DATA LANGSUNG KE WHATSAPP (ANTI GAGAL)
+        // ===================================================
+        const registrationForm = document.getElementById('registrationForm');
+
+        registrationForm.addEventListener('submit', function(e) {
+            e.preventDefault(); 
+            
+            const nama = registrationForm.querySelector('input[name="entry.172935275"]').value;
+            const bisnis = registrationForm.querySelector('input[name="entry.402324911"]').value;
+            const wa = registrationForm.querySelector('input[name="entry.1487214736"]').value;
+            const kategori = registrationForm.querySelector('select[name="entry.279822766"]').value;
+            
+            const nomorAdmin = "6281336698289"; 
+            
+            const teksPesan = `Halo Panitia LDII Trade Fair 2026,\n\nSaya ingin mendaftar dengan data berikut:\n\n` +
+                              `• *Nama Lengkap:* ${nama}\n` +
+                              `• *Nama Bisnis:* ${bisnis}\n` +
+                              `• *Nomor WhatsApp:* ${wa}\n` +
+                              `• *Kategori:* ${kategori}\n\n` +
+                              `Mohon diproses untuk langkah selanjutnya. Terima kasih!`;
+            
+            const urlWhatsApp = `https://wa.me/${nomorAdmin}?text=${encodeURIComponent(teksPesan)}`;
+            
+            window.open(urlWhatsApp, '_blank');
+        });
+    </script>
+</body>
+</html>
